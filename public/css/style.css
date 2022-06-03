@@ -477,7 +477,7 @@ section#header {
 }
 
 .acara .container {
-  padding: 3rem 0;
+  padding: 8rem 0;
 }
 
 .acara .tanggal {
@@ -1289,7 +1289,7 @@ footer {
   }
   /* Acara */
   .acara {
-    padding-top: 24rem;
+    padding-top: 17rem;
   }
   /* * Harapan */
   .lokasi .harapan .card {
