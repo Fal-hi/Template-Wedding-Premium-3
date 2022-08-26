@@ -6,9 +6,9 @@
 }
 
 :root {
-  --biru-muda: #DDEFF4;
+  --biru-muda: #ddeff4;
   --hitam: #000000;
-  --putih: #FFFFFF;
+  --putih: #ffffff;
   --abu-abu: #828282;
   --lengkung: 1rem;
   --lengkungO: 9999px;
@@ -108,7 +108,7 @@ section#header {
 }
 
 .header h1.undangan-pernikahan .balok {
-  margin: auto .5rem;
+  margin: auto 0.5rem;
   border: 1px solid var(--putih);
   width: 10%;
   padding: 1rem;
@@ -427,7 +427,7 @@ section#header {
 }
 
 .gallery .list-images .card {
-  margin: .4rem;
+  margin: 0.4rem;
   background-color: transparent;
   border: 0;
 }
@@ -590,9 +590,9 @@ section#header {
 .lokasi .akad .isi button,
 .lokasi .resepsi .isi button,
 .lokasi .mantu .isi button {
-  border: 1px solid var(--font-kuning);
+  border: 1px solid var(--biru-muda);
   padding: 0.5rem 1.5rem;
-  color: var(--biru-muda);
+  color: var(--putih);
   font-weight: bold;
   border-radius: var(--lengkungO);
   -webkit-border-radius: var(--lengkungO);
@@ -610,7 +610,7 @@ section#header {
 .lokasi .resepsi .isi button:hover,
 .lokasi .mantu .isi button:hover {
   background-color: var(--biru-muda);
-  color: var(--font-hijau);
+  color: var(--hitam);
   transition: 0.5s;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -1017,7 +1017,7 @@ footer {
   footer {
     background-size: contain;
     height: 49rem;
-}
+  }
 }
 /* ? Mobile Phone */
 @media (max-width: 575.98px) {
@@ -1106,7 +1106,7 @@ footer {
     -moz-border-radius: var(--lengkungO);
     -ms-border-radius: var(--lengkungO);
     -o-border-radius: var(--lengkungO);
-}
+  }
   .header .isi .bersamaan {
     color: var(--putih);
     padding-top: 12rem;
@@ -1196,7 +1196,7 @@ footer {
     -moz-border-radius: var(--lengkungO);
     -ms-border-radius: var(--lengkungO);
     -o-border-radius: var(--lengkungO);
-}
+  }
   .pengantin .pfphone .pria .gambar img.star {
     width: 20%;
     position: absolute;
@@ -1250,7 +1250,7 @@ footer {
     -moz-border-radius: var(--lengkungO);
     -ms-border-radius: var(--lengkungO);
     -o-border-radius: var(--lengkungO);
-}
+  }
   .pengantin .pfphone .wanita .gambar img.star {
     width: 20%;
     position: absolute;
@@ -1273,13 +1273,12 @@ footer {
     -webkit-backdrop-filter: blur(1px);
     padding: 1rem;
     display: grid;
-    grid-template-areas: 
-    "g1 g2"
-    "g1 g3"
-    "g4 g5"
-    "g6 g7"
-    "g8 g8"
-    ;
+    grid-template-areas:
+      "g1 g2"
+      "g1 g3"
+      "g4 g5"
+      "g6 g7"
+      "g8 g8";
   }
   .gallery .list-images .gallery1 {
     height: auto;
@@ -1327,7 +1326,7 @@ footer {
   .kartu-ucapan .daftar-kartu .card .kepala-body img {
     width: 15%;
   }
-  footer {  
+  footer {
     background-size: contain;
     height: 23rem;
   }
